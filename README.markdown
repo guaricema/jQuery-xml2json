@@ -1,6 +1,11 @@
-#jQuery xml2json [![Build Status][buildstatus]][buildstatusurl] [![Deps Status][depstatus]][depstatusurl]
+[![Build Status](https://drone.io/github.com/sergeyt/jQuery-xml2json/status.png)](https://drone.io/github.com/sergeyt/jQuery-xml2json/latest)
 
-[![NPM][npm]](https://nodei.co/npm/jquery-xml2json/)
+[![Dependency Status](https://david-dm.org/sergeyt/jQuery-xml2json.svg)](https://david-dm.org/sergeyt/jQuery-xml2json)
+[![devDependency Status](https://david-dm.org/sergeyt/jQuery-xml2json/dev-status.svg)](https://david-dm.org/sergeyt/jQuery-xml2json#info=devDependencies)
+
+#jQuery xml2json 
+
+[![NPM](https://nodei.co/npm/jquery-xml2json.png?downloads=true&stars=true)](https://nodei.co/npm/jquery-xml2json/)
 
 A simple jQuery plugin that converts XML data, typically from $.ajax requests, to a valid JSON object.
 
@@ -13,9 +18,3 @@ Here's a simple usage example:
             json = $.xml2json(response);
         }
     });
-
-[buildstatus]: https://drone.io/github.com/sergeyt/jQuery-xml2json/status.png
-[buildstatusurl]: https://drone.io/github.com/sergeyt/jQuery-xml2json/latest
-[depstatus]: https://david-dm.org/sergeyt/jQuery-xml2json.png
-[depstatusurl]: https://david-dm.org/sergeyt/jQuery-xml2json
-[npm]: https://nodei.co/npm/jquery-xml2json.png?downloads=true&stars=true
