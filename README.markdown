@@ -1,5 +1,4 @@
 [![Build Status](https://drone.io/github.com/sergeyt/jQuery-xml2json/status.png)](https://drone.io/github.com/sergeyt/jQuery-xml2json/latest)
-
 [![Dependency Status](https://david-dm.org/sergeyt/jQuery-xml2json.svg)](https://david-dm.org/sergeyt/jQuery-xml2json)
 [![devDependency Status](https://david-dm.org/sergeyt/jQuery-xml2json/dev-status.svg)](https://david-dm.org/sergeyt/jQuery-xml2json#info=devDependencies)
 
