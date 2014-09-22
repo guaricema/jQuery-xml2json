@@ -40,10 +40,10 @@
     "karma-phantomjs-launcher": "~0.1",
     "karma": "~0.12",
     "karma-coverage": "~0.2",
-    "mocha": "~1.15.1",
+    "mocha": "~1.24",
     "karma-mocha": "~0.1",
     "expect.js": "~0.3",
-    "grunt-karma": "~0.8",
+    "grunt-karma": "~0.9",
     "xml2js": "~0.4"
   },
   "scripts": {
