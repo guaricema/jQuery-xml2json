@@ -7,6 +7,7 @@ Package.describe({
 
 Package.onUse(function(api) {
   var client = ['client'];
+  api.versionsFrom('METEOR@0.9.1');
   api.use('jquery', client);
   api.addFiles('./src/xml2json.js', client);
 });
