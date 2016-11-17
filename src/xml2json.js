@@ -104,8 +104,8 @@
 			xml = parseXML(xml).documentElement;
 		}
 
-		var root = {};
-		if (typeof xml.attributes === 'undefined') {
+		var root = {};		
+		if ( (typeof xml.attributes === 'undefined') || (xml.attributes === null) ) {
 			root[xml.nodeName] = xml2jsonImpl(xml, options);
 		} else if (xml.attributes.length === 0 && xml.childElementCount === 0){
 			root[xml.nodeName] = normalize(xml.textContent, options);
